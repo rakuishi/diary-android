@@ -1,4 +1,4 @@
-package com.rakuishi.diary.viewmodel
+package com.rakuishi.diary.ui.diary_list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(
+class DiaryListViewModel @Inject constructor(
     private val diaryRepository: DiaryRepository
 ) : ViewModel() {
 

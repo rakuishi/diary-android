@@ -54,6 +54,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
     // Targeting S+ (version 31 and above) requires that one of FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent.
     implementation "androidx.work:work-runtime-ktx:2.8.1"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
     // hilt
     implementation 'com.google.dagger:hilt-android:2.44'
